@@ -1,0 +1,181 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Pokemon Toevoegen'
+  ClientHeight = 323
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object NaamLabel: TLabel
+    Left = 61
+    Top = 24
+    Width = 27
+    Height = 13
+    Caption = 'Naam'
+  end
+  object Type1Label: TLabel
+    Left = 61
+    Top = 48
+    Width = 33
+    Height = 13
+    Caption = 'Type 1'
+  end
+  object Type2Label: TLabel
+    Left = 61
+    Top = 75
+    Width = 33
+    Height = 13
+    Caption = 'Type 2'
+  end
+  object AttackLabel: TLabel
+    Left = 61
+    Top = 107
+    Width = 31
+    Height = 16
+    Caption = 'Attack'
+  end
+  object SpAttackLabel: TLabel
+    Left = 61
+    Top = 129
+    Width = 50
+    Height = 13
+    Caption = 'Sp. Attack'
+  end
+  object DefenseLabel: TLabel
+    Left = 61
+    Top = 164
+    Width = 40
+    Height = 13
+    Caption = 'Defense'
+  end
+  object SpDefenseLabel: TLabel
+    Left = 55
+    Top = 183
+    Width = 59
+    Height = 13
+    Caption = 'Sp. Defense'
+  end
+  object HPLabel: TLabel
+    Left = 55
+    Top = 237
+    Width = 12
+    Height = 13
+    Caption = 'HP'
+  end
+  object SpeedLabel: TLabel
+    Left = 55
+    Top = 210
+    Width = 30
+    Height = 13
+    Caption = 'Speed'
+  end
+  object IDLabel: TLabel
+    Left = 61
+    Top = 297
+    Width = 17
+    Height = 18
+    Caption = 'ID'
+  end
+  object NummerLabel: TLabel
+    Left = 55
+    Top = 264
+    Width = 39
+    Height = 13
+    Caption = 'Nummer'
+  end
+  object NameInput: TEdit
+    Left = 120
+    Top = 18
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    Text = 'NameInput'
+  end
+  object Type1Input: TEdit
+    Left = 120
+    Top = 45
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Type1Input'
+  end
+  object Type2Input: TEdit
+    Left = 120
+    Top = 72
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    Text = 'Type2Input'
+  end
+  object AttackInput: TEdit
+    Left = 120
+    Top = 99
+    Width = 121
+    Height = 21
+    TabOrder = 3
+    Text = 'AttackInput'
+  end
+  object SpAttackInput: TEdit
+    Left = 117
+    Top = 126
+    Width = 121
+    Height = 21
+    TabOrder = 4
+    Text = 'SpAttackInput'
+  end
+  object Defense: TEdit
+    Left = 120
+    Top = 153
+    Width = 121
+    Height = 21
+    TabOrder = 5
+    Text = 'Defense'
+  end
+  object SpDefenseInput: TEdit
+    Left = 120
+    Top = 180
+    Width = 121
+    Height = 21
+    TabOrder = 6
+    Text = 'SpDefenseInput'
+  end
+  object SpeedInput: TEdit
+    Left = 120
+    Top = 207
+    Width = 121
+    Height = 21
+    TabOrder = 7
+    Text = 'SpeedInput'
+  end
+  object HPInput: TEdit
+    Left = 120
+    Top = 234
+    Width = 121
+    Height = 21
+    TabOrder = 8
+    Text = 'HPInput'
+  end
+  object NummerInput: TEdit
+    Left = 120
+    Top = 261
+    Width = 121
+    Height = 21
+    TabOrder = 9
+    Text = 'NummerInput'
+  end
+  object IDInput: TEdit
+    Left = 120
+    Top = 288
+    Width = 121
+    Height = 21
+    TabOrder = 10
+    Text = 'IDInput'
+  end
+end

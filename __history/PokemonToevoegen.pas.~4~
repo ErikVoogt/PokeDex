@@ -1,0 +1,58 @@
+unit PokemonToevoegen;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    NaamLabel: TLabel;
+    Type1Label: TLabel;
+    Type2Label: TLabel;
+    AttackLabel: TLabel;
+    SpAttackLabel: TLabel;
+    DefenseLabel: TLabel;
+    SpDefenseLabel: TLabel;
+    HPLabel: TLabel;
+    SpeedLabel: TLabel;
+    NummerLabel: TLabel;
+    NaamInput: TEdit;
+    Type1Input: TEdit;
+    Type2Input: TEdit;
+    AttackInput: TEdit;
+    SpAttackInput: TEdit;
+    Defense: TEdit;
+    SpDefenseInput: TEdit;
+    SpeedInput: TEdit;
+    HPInput: TEdit;
+    NummerInput: TEdit;
+    Submit: TButton;
+    Cancel: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  Naam : String;
+  Type1: String;
+  Type2: String;
+  Attack: Integer;
+  SpAttack: Integer;
+  Defense: Integer;
+  SpDefense: Integer;
+  Speed: Integer;
+  Hp: Integer;
+  Nummer: Integer;
+
+
+
+implementation
+
+{$R *.dfm}
+
+end.
