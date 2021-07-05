@@ -32,6 +32,7 @@ type
     Cancel: TButton;
     procedure CancelClick(Sender: TObject);
     procedure SubmitClick(Sender: TObject);
+    procedure RefreshSubmitForm;
   private
     { Private declarations }
   public
@@ -49,7 +50,7 @@ implementation
 
 procedure TForm1.CancelClick(Sender: TObject);
 begin
-Database.GetAllPokemon.Open;
+Form1.Close;
 end;
 
 procedure TForm1.SubmitClick(Sender: TObject);
@@ -66,7 +67,27 @@ DataBase.AddPokemon.ParamByName('Speed').AsInteger:=StrToInt(SpeedInput.Text);
 DataBase.AddPokemon.ParamByName('Hp').AsInteger:=StrToInt(HpInput.Text);
 DataBase.AddPokemon.ParamByName('Nummer').AsInteger:=StrToInt(NummerInput.Text);
 DataBase.AddPokemon.Execute;
-DataBase.AddPokemon.Refresh;
+RefreshSubmitForm();
+
+
 end;
+
+procedure TForm1.RefreshSubmitForm();
+begin
+
+NaamInput.Text := '';
+Type1Input.Text := '';
+Type2Input.Text := '';
+AttackInput.Text := '';
+SpAttackInput.Text := '';
+DefenseInput.Text :='';
+SpDefenseInput.Text := '';
+SpeedInput.Text := '';
+HpInput.Text := '';
+NummerInput.Text := '';
+
+
+end;
+
 
 end.

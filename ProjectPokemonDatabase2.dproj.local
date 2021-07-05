@@ -2,12 +2,18 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2021/06/04 14:40:51.000.570,=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas</Transaction>
-    <Transaction>2021/06/04 14:41:30.000.503,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.dfm=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokemonToevoegen.dfm</Transaction>
-    <Transaction>2021/06/04 14:41:30.000.503,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokemonToevoegen.pas</Transaction>
-    <Transaction>2021/06/04 15:07:12.000.538,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\ProjectPokemonDatabase.dproj=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\ProjectPokemonDatabase2.dproj</Transaction>
+    <Transaction>2021/06/04 14:41:30.000.503,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokemonToevoegen.dfm=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.dfm</Transaction>
+    <Transaction>2021/06/04 14:41:30.000.503,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokemonToevoegen.pas=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas</Transaction>
+    <Transaction>2021/06/04 15:07:12.000.538,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\ProjectPokemonDatabase2.dproj=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\ProjectPokemonDatabase.dproj</Transaction>
     <Transaction>2021/06/04 15:26:11.000.990,=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas</Transaction>
-    <Transaction>2021/06/04 15:26:27.000.982,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\DB.dfm=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.dfm</Transaction>
-    <Transaction>2021/06/04 15:26:27.000.982,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\DB.pas=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas</Transaction>
+    <Transaction>2021/06/04 15:26:27.000.982,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.dfm=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\DB.dfm</Transaction>
+    <Transaction>2021/06/04 15:26:27.000.982,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\DB.pas</Transaction>
+    <Transaction>2021/06/07 16:33:01.000.050,=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit4.pas</Transaction>
+    <Transaction>2021/06/07 16:33:19.000.795,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokedexBekijken.dfm=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit4.dfm</Transaction>
+    <Transaction>2021/06/07 16:33:19.000.795,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokedexBekijken.pas=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit4.pas</Transaction>
+    <Transaction>2021/06/09 09:54:40.000.457,=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit5.pas</Transaction>
+    <Transaction>2021/06/09 14:07:19.000.446,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit5.pas=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\EditPokemon.pas</Transaction>
+    <Transaction>2021/06/09 14:07:19.000.446,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit5.dfm=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\EditPokemon.dfm</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="DB.pas"/>
@@ -16,5 +22,9 @@
     <File Path="Pokemo.dfm"/>
     <File Path="PokemonToevoegen.pas"/>
     <File Path="PokemonToevoegen.dfm"/>
+    <File Path="PokedexBekijken.pas"/>
+    <File Path="PokedexBekijken.dfm"/>
+    <File Path="EditPokemon.pas"/>
+    <File Path="EditPokemon.dfm"/>
   </ProjectSortOrder>
 </BorlandProject>

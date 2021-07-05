@@ -89,7 +89,7 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 0
-    Text = 'NaamInput'
+    TextHint = 'NaamInput'
   end
   object Type1Input: TEdit
     Left = 120
@@ -97,7 +97,7 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 1
-    Text = 'Type1Input'
+    TextHint = 'Type1Input'
   end
   object Type2Input: TEdit
     Left = 120
@@ -105,7 +105,7 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 2
-    Text = 'Type2Input'
+    TextHint = 'Type2Input'
   end
   object AttackInput: TEdit
     Left = 120
@@ -113,7 +113,7 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 3
-    Text = 'AttackInput'
+    TextHint = 'AttackInput'
   end
   object SpAttackInput: TEdit
     Left = 120
@@ -121,7 +121,7 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 4
-    Text = 'SpAttackInput'
+    TextHint = 'SpAttackInput'
   end
   object DefenseInput: TEdit
     Left = 120
@@ -129,7 +129,7 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 5
-    Text = 'DefenseInput'
+    TextHint = 'DefenseInput'
   end
   object SpDefenseInput: TEdit
     Left = 120
@@ -137,7 +137,7 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 6
-    Text = 'SpDefenseInput'
+    TextHint = 'SpDefenseInput'
   end
   object SpeedInput: TEdit
     Left = 120
@@ -145,7 +145,7 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 7
-    Text = 'SpeedInput'
+    TextHint = 'SpeedInput'
   end
   object HPInput: TEdit
     Left = 120
@@ -153,15 +153,15 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 8
-    Text = 'HPInput'
+    TextHint = 'HPInput'
   end
   object NummerInput: TEdit
     Left = 120
-    Top = 261
+    Top = 263
     Width = 121
     Height = 21
     TabOrder = 9
-    Text = 'NummerInput'
+    TextHint = 'NummerInput'
   end
   object Submit: TButton
     Left = 136

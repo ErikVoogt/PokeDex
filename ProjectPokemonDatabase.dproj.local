@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/06/04 14:40:51.570,=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas</Transaction>
-    <Transaction>2021/06/04 14:41:30.503,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokemonToevoegen.pas=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas</Transaction>
-    <Transaction>2021/06/04 14:41:30.503,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokemonToevoegen.dfm=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.dfm</Transaction>
+	<Transactions>
+    <Transaction>2021/06/04 14:40:51.000.570,=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas</Transaction>
+    <Transaction>2021/06/04 14:41:30.000.503,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.dfm=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokemonToevoegen.dfm</Transaction>
+    <Transaction>2021/06/04 14:41:30.000.503,C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\Unit1.pas=C:\Users\Erik\Documents\Embarcadero\Studio\Projects\PokemonDatabase\PokemonToevoegen.pas</Transaction>
   </Transactions>
 </BorlandProject>
